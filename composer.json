@@ -1,0 +1,21 @@
+{
+  "name": "rapidwebltd/site-map-url-checker",
+  "description": "The Site Map URL Checker enables you to run an automatic checks for the response from a list of urls stored in a file.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Pavel Ryzhkov",
+      "email": "pavel.ryzhkov@mail.ru"
+    }
+  ],
+  "require": {
+    "rapidwebltd/uxdm": "^1.8",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RapidWeb\\SiteMapUrlChecker\\": "src/"
+    }
+  },
+  "license": "LGPL-3.0-only"
+}
